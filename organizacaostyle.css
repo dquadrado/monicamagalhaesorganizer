@@ -1,0 +1,22 @@
+
+body, li, ul, p {
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+body{
+margin-bottom: 100px;
+}
+
+.logo{
+    width: 150px;
+    height: auto;
+}
+
+.img1 {
+max-width: 100%;
+width: 150px;       
+display: block;
+}

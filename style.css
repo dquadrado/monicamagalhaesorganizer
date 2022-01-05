@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Sarala', sans-serif;
+    background: linear-gradient(68.15deg, #c4b279 16.62%, #f39122 83.38%);  
+    /*background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);*/
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+    font-size: 100%
+     /*background-image:url("imagem/hands.jpg")*/
+}
+
+.header {
+    /*background: white;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.logo {
+    width: 150px; /* you can use % */
+    height: auto;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.menu_item{
+  font-family: 'Sarala', sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.titulo {
+    color:white;
+    text-align: center;
+}
+
+.primeiro_titulo {
+    font-size:50px;
+    text-shadow: 2px 2px 5px red;
+}
+
+.segundo_titulo {
+    font-size: 40px ;
+    text-shadow: 2px 2px 5px red;
+}
+
+.texto {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textoinicio {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+   
+}
+
+.textoiniciotitulo{
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 40px;
+  color:white
+}
+
+.textoiniciosegundo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+
+}
+
+.conteudo_imagem {
+    height: 350px;
+}
+
+.conteudo_secundario_titulo{
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 16px;
+    padding-top: 48px;
+    color: white;
+    align-self: center;
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+    padding-bottom: 10px;
+
+}
+
+.conteudo_secundario_texto{
+    text-indent: 50px;
+    padding-bottom: 10px;
+    color:whitesmoke;
+}
+
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.rodape_imagem {
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
