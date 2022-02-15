@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Sarala', sans-serif;
+    background: linear-gradient(68.15deg, #c4b279 16.62%, #f39122 83.38%);  
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+    font-size: 100%;    
+    padding-top: 125px;
+}
+
+.header_fixo{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.header {
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.logo {
+    width: 150px; /* you can use % */
+    height: auto;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.menu_item{
+    font-family: 'Sarala', sans-serif;
+    color: orange;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+h1{
+    color:white;
+    text-align: center;
+}
+
+h2{
+    color:white;
+    text-align: center;
+}
+
+h3{
+    color:white;
+    text-align: center;
+}
+
+p{
+    color: white;
+}
+
+.organizacao > img{
+    max-width: 100%;
+    display: block;
+}
+
+.orgarnizacao {
+    display:flex;
+    flex-flow: row wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 48px;
+    justify-content: space-around;
+}
+
+.organizacao >div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.img_organizado_arrumado{
+    align-self: center;
+    text-align: center;
+}
+
+
+.rodape{
+    padding: 32px;
+    border-top: 2px solid #FFF2E7;
+}
+
+.rodape_imagem {
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+

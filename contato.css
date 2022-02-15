@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Sarala', sans-serif;
+    background: linear-gradient(68.15deg, #c4b279 16.62%, #f39122 83.38%);  
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+    font-size: 100%;
+    padding-top: 125px;
+ 
+}
+
+.header_fixo{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.logo {
+    width: 150px; /* you can use % */
+    height: auto;
+    
+}
+
+.header {
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.menu_item{
+  font-family: 'Sarala', sans-serif;
+  color: orange;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+h1{
+    color:white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.formulario{
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    padding: 30px;
+    border: 5px solid #ccc;
+
+}
+
+
+.grupo {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.grupo label{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+    color: white;
+}
+
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.aerea {
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+    
+}
+
+.botao{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+.rodape{
+    padding-top: 10px;
+    border-top: 2px solid #FFF2E7;
+}
+
+.rodape_imagem {
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.icon {
+    display: flex;
+    margin: 0 auto;
+}

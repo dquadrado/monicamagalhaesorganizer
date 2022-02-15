@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Sarala', sans-serif;
+    background: linear-gradient(68.15deg, #c4b279 16.62%, #f39122 83.38%);  
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+    font-size: 100%;   
+    padding-top: 125px; 
+}
+.header_fixo{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.header {
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.logo {
+    width: 150px; /* you can use % */
+    height: auto;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.menu_item{
+    font-family: 'Sarala', sans-serif;
+    color: orange;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+h1{
+    color:white;
+    text-align: center;
+}
+h2{
+    color:white;
+    text-align: center;
+}
+
+hr{
+    size: 20px;
+}
+
+p{
+    color: white;
+}
+
+.arrumado{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+
+} 
+
+.arrumado_1{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    text-align: center;
+}
+
+.arrumado_2{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    text-align: center;
+}
+
+.img_organizado_arrumado{
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+
+}
+
+.img_modo{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 10px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.img_guardaroupa{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 10px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+
+.rodape{
+    padding: 32px;
+    border-top: 2px solid #FFF2E7;
+}
+
+.rodape_imagem {
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
